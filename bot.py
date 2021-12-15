@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @scott7651
 
 # This is Telegram Video Watermark Adder Bot's Source Code.
 # I Hardly Made This. So Don't Forget to Give Me Credits.
@@ -8,8 +8,8 @@
 # Edit anything at your own risk!
 
 # Don't forget to help me if I done any mistake in the codes.
-# Support Group: @DevsZone 
-# Bots Channel: @Discovery_Updates
+# Support Group: @STAR_BOTZ 
+# Bots Channel: @STAR_BOTZ
 
 
 import os
@@ -52,7 +52,7 @@ async def HelpWatermark(bot, cmd):
 	await cmd.reply_text(
 		text=Config.USAGE_WATERMARK_ADDER,
 		parse_mode="Markdown",
-		reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005"), InlineKeyboardButton("Support Group", url="https://t.me/DevsZone")], [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")], [InlineKeyboardButton("Source Code", url="https://github.com/AbirHasan2005/Watermark-Bot")]]),
+		reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/scott7651"), InlineKeyboardButton("Support Group", url="https://t.me/STAR_BOTZ")], [InlineKeyboardButton("Bots Channel", url="https://t.me/STAR_BOTZ")], [InlineKeyboardButton("Source Code", url="https://github.com/scott7651/Watermark-Bot")]]),
 		disable_web_page_preview=True
 	)
 
@@ -235,7 +235,7 @@ async def VidWatermarkAdder(bot, cmd):
 		duration = metadata.get('duration').seconds
 	the_media_file_name = os.path.basename(the_media)
 	main_file_name = os.path.splitext(the_media_file_name)[0]
-	output_vid = main_file_name + "_[" + str(cmd.from_user.id) + "]_[" + str(time.time()) + "]_[@AbirHasan2005]" + ".mp4"
+	output_vid = main_file_name + "_[" + str(cmd.from_user.id) + "]_[" + str(time.time()) + "]_[@scott7651]" + ".mp4"
 	progress = Config.DOWN_PATH + "/WatermarkAdder/" + str(cmd.from_user.id) + "/progress.txt"
 	try:
 		output_vid = await vidmark(the_media, editable, progress, watermark_path, output_vid, duration, logs_msg, status, preset, watermark_position, watermark_size)
@@ -395,7 +395,7 @@ async def button(bot, cmd: CallbackQuery):
 				user = await bot.get_chat_member(int(Config.UPDATES_CHANNEL), cmd.message.chat.id)
 				if user.status == "kicked":
 					await cmd.message.edit(
-						text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/DevsZone).",
+						text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/STAR_BOTZ).",
 						parse_mode="markdown",
 						disable_web_page_preview=True
 					)
@@ -418,7 +418,7 @@ async def button(bot, cmd: CallbackQuery):
 				return
 			except Exception:
 				await cmd.message.edit(
-					text="Something went Wrong. Contact my [Support Group](https://t.me/DevsZone).",
+					text="Something went Wrong. Contact my [Support Group](https://t.me/STAR_BOTZ).",
 					parse_mode="markdown",
 					disable_web_page_preview=True
 				)
@@ -426,7 +426,7 @@ async def button(bot, cmd: CallbackQuery):
 		await cmd.message.edit(
 			text=Config.USAGE_WATERMARK_ADDER,
 			parse_mode="Markdown",
-			reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005"), InlineKeyboardButton("Support Group", url="https://t.me/DevsZone")], [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")]]),
+			reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/scott7651"), InlineKeyboardButton("Support Group", url="https://t.me/STAR_BOTZ")], [InlineKeyboardButton("Bots Channel", url="https://t.me/STAR_BOTZ")]]),
 			disable_web_page_preview=True
 		)
 
@@ -443,7 +443,7 @@ async def button(bot, cmd: CallbackQuery):
 				user = await bot.get_chat_member(int(Config.UPDATES_CHANNEL), cmd.message.chat.id)
 				if user.status == "kicked":
 					await cmd.message.edit(
-						text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/DevsZone).",
+						text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/STAR_BOTZ).",
 						parse_mode="markdown",
 						disable_web_page_preview=True
 					)
@@ -466,7 +466,7 @@ async def button(bot, cmd: CallbackQuery):
 				return
 			except Exception:
 				await cmd.message.edit(
-					text="Something went Wrong. Contact my [Support Group](https://t.me/DevsZone).",
+					text="Something went Wrong. Contact my [Support Group](https://t.me/STAR_BOTZ).",
 					parse_mode="markdown",
 					disable_web_page_preview=True
 				)
