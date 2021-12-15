@@ -1,5 +1,5 @@
 # Watermark-Bot
-A Telegram Video Watermark Adder Bot by [scott7651](https://github.com/AbirHasan2005)
+A Telegram Video Watermark Adder Bot by [scott7651](https://github.com/scott7851)
 
 ## Features:
 - Save Custom Watermark Image.
@@ -51,7 +51,7 @@ reset - Reset all settings to default
 
 #### Easiest Way [Deploy To Heroku] 😪
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AbirHasan2005/Watermark-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/scott7651/Watermark-Bot)
 
 #### Video Tutorial:
 [![YouTube](https://img.shields.io/badge/YouTube-Video%20Tutorial-red?logo=youtube)](https://www.youtube.com/watch?v=A7wnaKMHpvU&t)
@@ -69,7 +69,7 @@ python3 bot.py
 
 ### Follow on:
 <p align="left">
-<a href="https://github.com/AbirHasan2005"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a>
+<a href="https://github.com/scott7651"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a>
 </p>
 <p align="left">
 <a href="https://twitter.com/AbirHasan2005"><img src="https://img.shields.io/badge/Twitter-Follow%20on%20Twitter-informational.svg?logo=twitter"></a>
